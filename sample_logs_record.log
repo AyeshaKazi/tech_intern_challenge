@@ -1,0 +1,197 @@
+2021-12-08 15:58:13,871 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-12-08 15:58:13,878 INFO werkzeug MainThread :  * Restarting with fsevents reloader
+2021-12-08 15:58:14,551 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-08 15:58:14,567 INFO werkzeug MainThread :  * Debugger PIN: 163-185-498
+2021-12-08 15:58:23,820 INFO app Thread-6 : Rendering webApp
+2021-12-08 15:58:23,829 INFO werkzeug Thread-6 : 127.0.0.1 - - [08/Dec/2021 15:58:23] "[37mGET / HTTP/1.1[0m" 200 -
+2021-12-08 15:58:23,972 INFO werkzeug Thread-9 : 127.0.0.1 - - [08/Dec/2021 15:58:23] "[37mGET /static/css/main.css HTTP/1.1[0m" 200 -
+2021-12-08 15:58:23,975 INFO werkzeug Thread-8 : 127.0.0.1 - - [08/Dec/2021 15:58:23] "[37mGET /static/css/pagination.css HTTP/1.1[0m" 200 -
+2021-12-08 15:58:23,978 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Dec/2021 15:58:23] "[37mGET /static/css/all.min.css HTTP/1.1[0m" 200 -
+2021-12-08 15:58:24,095 INFO werkzeug Thread-12 : 127.0.0.1 - - [08/Dec/2021 15:58:24] "[37mGET /static/data/logo.png HTTP/1.1[0m" 200 -
+2021-12-08 15:58:24,095 INFO werkzeug Thread-10 : 127.0.0.1 - - [08/Dec/2021 15:58:24] "[37mGET /static/js/pagination.js HTTP/1.1[0m" 200 -
+2021-12-08 15:58:24,095 INFO werkzeug Thread-11 : 127.0.0.1 - - [08/Dec/2021 15:58:24] "[37mGET /static/js/script.js HTTP/1.1[0m" 200 -
+2021-12-08 15:58:24,333 INFO app Thread-13 : Number of Rows 149
+2021-12-08 15:58:24,334 INFO app Thread-13 : Filter Query {'pageNo': 1, 'records': 50, 'filter': {}, 'sortColumn': '', 'sortOrderAsc': None}
+2021-12-08 15:58:24,334 INFO app Thread-13 : Filtering table
+2021-12-08 15:58:24,334 INFO app Thread-13 : Sorting table
+2021-12-08 15:58:24,334 INFO app Thread-13 : Implementing Pagination
+2021-12-08 15:58:24,334 INFO app Thread-13 : Rendered json into table
+2021-12-08 15:58:24,341 INFO werkzeug Thread-13 : 127.0.0.1 - - [08/Dec/2021 15:58:24] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:58:24,471 INFO werkzeug Thread-14 : 127.0.0.1 - - [08/Dec/2021 15:58:24] "[33mGET /static/webfonts/fa-solid-900.woff2 HTTP/1.1[0m" 404 -
+2021-12-08 15:58:24,480 INFO werkzeug Thread-15 : 127.0.0.1 - - [08/Dec/2021 15:58:24] "[33mGET /static/webfonts/fa-solid-900.woff HTTP/1.1[0m" 404 -
+2021-12-08 15:58:24,491 INFO werkzeug Thread-16 : 127.0.0.1 - - [08/Dec/2021 15:58:24] "[33mGET /static/webfonts/fa-solid-900.ttf HTTP/1.1[0m" 404 -
+2021-12-08 15:58:27,425 INFO app Thread-17 : Number of Rows 149
+2021-12-08 15:58:27,426 INFO app Thread-17 : Filter Query {'pageNo': 1, 'records': 50, 'filter': {}, 'sortColumn': 'song', 'sortOrderAsc': True}
+2021-12-08 15:58:27,426 INFO app Thread-17 : Filtering table
+2021-12-08 15:58:27,426 INFO app Thread-17 : Sorting table
+2021-12-08 15:58:27,426 INFO app Thread-17 : Implementing Pagination
+2021-12-08 15:58:27,426 INFO app Thread-17 : Rendered json into table
+2021-12-08 15:58:27,430 INFO werkzeug Thread-17 : 127.0.0.1 - - [08/Dec/2021 15:58:27] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:58:29,834 INFO app Thread-18 : Number of Rows 149
+2021-12-08 15:58:29,835 INFO app Thread-18 : Filter Query {'pageNo': 1, 'records': 50, 'filter': {}, 'sortColumn': 'songReleaseDate', 'sortOrderAsc': False}
+2021-12-08 15:58:29,835 INFO app Thread-18 : Filtering table
+2021-12-08 15:58:29,835 INFO app Thread-18 : Sorting table
+2021-12-08 15:58:29,835 INFO app Thread-18 : Implementing Pagination
+2021-12-08 15:58:29,835 INFO app Thread-18 : Rendered json into table
+2021-12-08 15:58:29,838 INFO werkzeug Thread-18 : 127.0.0.1 - - [08/Dec/2021 15:58:29] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:58:32,888 INFO app Thread-19 : Number of Rows 149
+2021-12-08 15:58:32,889 INFO app Thread-19 : Filter Query {'pageNo': 1, 'records': 50, 'filter': {'songReleaseDate': '900'}, 'sortColumn': 'songReleaseDate', 'sortOrderAsc': False}
+2021-12-08 15:58:32,889 INFO app Thread-19 : Filtering table
+2021-12-08 15:58:32,890 INFO app Thread-19 : Sorting table
+2021-12-08 15:58:32,890 INFO app Thread-19 : Implementing Pagination
+2021-12-08 15:58:32,890 INFO app Thread-19 : Rendered json into table
+2021-12-08 15:58:32,891 INFO werkzeug Thread-19 : 127.0.0.1 - - [08/Dec/2021 15:58:32] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:58:35,890 INFO app Thread-20 : Number of Rows 149
+2021-12-08 15:58:35,890 INFO app Thread-20 : Filter Query {'pageNo': 1, 'records': 50, 'filter': {}, 'sortColumn': 'songReleaseDate', 'sortOrderAsc': False}
+2021-12-08 15:58:35,891 INFO app Thread-20 : Filtering table
+2021-12-08 15:58:35,891 INFO app Thread-20 : Sorting table
+2021-12-08 15:58:35,891 INFO app Thread-20 : Implementing Pagination
+2021-12-08 15:58:35,892 INFO app Thread-20 : Rendered json into table
+2021-12-08 15:58:35,895 INFO werkzeug Thread-20 : 127.0.0.1 - - [08/Dec/2021 15:58:35] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:58:38,416 INFO app Thread-21 : Number of Rows 149
+2021-12-08 15:58:38,418 INFO app Thread-21 : Filter Query {'pageNo': 1, 'records': 50, 'filter': {'playCount': '57'}, 'sortColumn': 'songReleaseDate', 'sortOrderAsc': False}
+2021-12-08 15:58:38,418 INFO app Thread-21 : Filtering table
+2021-12-08 15:58:38,419 INFO app Thread-21 : Sorting table
+2021-12-08 15:58:38,419 INFO app Thread-21 : Implementing Pagination
+2021-12-08 15:58:38,419 INFO app Thread-21 : Rendered json into table
+2021-12-08 15:58:38,421 INFO werkzeug Thread-21 : 127.0.0.1 - - [08/Dec/2021 15:58:38] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:58:42,911 INFO app Thread-22 : Number of Rows 149
+2021-12-08 15:58:42,911 INFO app Thread-22 : Filter Query {'pageNo': 1, 'records': 50, 'filter': {'playCount': '57', 'artist': 'a'}, 'sortColumn': 'songReleaseDate', 'sortOrderAsc': False}
+2021-12-08 15:58:42,911 INFO app Thread-22 : Filtering table
+2021-12-08 15:58:42,912 INFO app Thread-22 : Sorting table
+2021-12-08 15:58:42,912 INFO app Thread-22 : Implementing Pagination
+2021-12-08 15:58:42,912 INFO app Thread-22 : Rendered json into table
+2021-12-08 15:58:42,914 INFO werkzeug Thread-22 : 127.0.0.1 - - [08/Dec/2021 15:58:42] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:58:49,296 INFO app Thread-23 : Number of Rows 149
+2021-12-08 15:58:49,298 INFO app Thread-23 : Filter Query {'pageNo': 1, 'records': 50, 'filter': {'playCount': '57', 'artist': 'a', 'metricB': '7'}, 'sortColumn': 'songReleaseDate', 'sortOrderAsc': False}
+2021-12-08 15:58:49,298 INFO app Thread-23 : Filtering table
+2021-12-08 15:58:49,299 INFO app Thread-23 : Sorting table
+2021-12-08 15:58:49,299 INFO app Thread-23 : Implementing Pagination
+2021-12-08 15:58:49,299 INFO app Thread-23 : Rendered json into table
+2021-12-08 15:58:49,300 INFO werkzeug Thread-23 : 127.0.0.1 - - [08/Dec/2021 15:58:49] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:58:50,749 INFO app Thread-24 : Number of Rows 149
+2021-12-08 15:58:50,750 INFO app Thread-24 : Filter Query {'pageNo': 1, 'records': 50, 'filter': {'playCount': '57', 'artist': 'a', 'metricB': '7'}, 'sortColumn': 'metricB', 'sortOrderAsc': True}
+2021-12-08 15:58:50,750 INFO app Thread-24 : Filtering table
+2021-12-08 15:58:50,751 INFO app Thread-24 : Sorting table
+2021-12-08 15:58:50,751 INFO app Thread-24 : Implementing Pagination
+2021-12-08 15:58:50,751 INFO app Thread-24 : Rendered json into table
+2021-12-08 15:58:50,752 INFO werkzeug Thread-24 : 127.0.0.1 - - [08/Dec/2021 15:58:50] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:58:51,211 INFO app Thread-25 : Number of Rows 149
+2021-12-08 15:58:51,212 INFO app Thread-25 : Filter Query {'pageNo': 1, 'records': 50, 'filter': {'playCount': '57', 'artist': 'a', 'metricB': '7'}, 'sortColumn': 'metricB', 'sortOrderAsc': False}
+2021-12-08 15:58:51,212 INFO app Thread-25 : Filtering table
+2021-12-08 15:58:51,212 INFO app Thread-25 : Sorting table
+2021-12-08 15:58:51,212 INFO app Thread-25 : Implementing Pagination
+2021-12-08 15:58:51,212 INFO app Thread-25 : Rendered json into table
+2021-12-08 15:58:51,213 INFO werkzeug Thread-25 : 127.0.0.1 - - [08/Dec/2021 15:58:51] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:58:51,845 INFO app Thread-26 : Number of Rows 149
+2021-12-08 15:58:51,845 INFO app Thread-26 : Filter Query {'pageNo': 1, 'records': 50, 'filter': {'playCount': '57', 'artist': 'a', 'metricB': '7'}, 'sortColumn': 'metricB', 'sortOrderAsc': True}
+2021-12-08 15:58:51,845 INFO app Thread-26 : Filtering table
+2021-12-08 15:58:51,846 INFO app Thread-26 : Sorting table
+2021-12-08 15:58:51,846 INFO app Thread-26 : Implementing Pagination
+2021-12-08 15:58:51,846 INFO app Thread-26 : Rendered json into table
+2021-12-08 15:58:51,847 INFO werkzeug Thread-26 : 127.0.0.1 - - [08/Dec/2021 15:58:51] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:58:51,992 INFO app Thread-27 : Number of Rows 149
+2021-12-08 15:58:51,992 INFO app Thread-27 : Filter Query {'pageNo': 1, 'records': 50, 'filter': {'playCount': '57', 'artist': 'a', 'metricB': '7'}, 'sortColumn': 'metricB', 'sortOrderAsc': False}
+2021-12-08 15:58:51,992 INFO app Thread-27 : Filtering table
+2021-12-08 15:58:51,993 INFO app Thread-27 : Sorting table
+2021-12-08 15:58:51,993 INFO app Thread-27 : Implementing Pagination
+2021-12-08 15:58:51,993 INFO app Thread-27 : Rendered json into table
+2021-12-08 15:58:51,994 INFO werkzeug Thread-27 : 127.0.0.1 - - [08/Dec/2021 15:58:51] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:58:52,163 INFO app Thread-28 : Number of Rows 149
+2021-12-08 15:58:52,163 INFO app Thread-28 : Filter Query {'pageNo': 1, 'records': 50, 'filter': {'playCount': '57', 'artist': 'a', 'metricB': '7'}, 'sortColumn': 'metricB', 'sortOrderAsc': True}
+2021-12-08 15:58:52,163 INFO app Thread-28 : Filtering table
+2021-12-08 15:58:52,164 INFO app Thread-28 : Sorting table
+2021-12-08 15:58:52,164 INFO app Thread-28 : Implementing Pagination
+2021-12-08 15:58:52,164 INFO app Thread-28 : Rendered json into table
+2021-12-08 15:58:52,165 INFO werkzeug Thread-28 : 127.0.0.1 - - [08/Dec/2021 15:58:52] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:58:52,503 INFO app Thread-29 : Number of Rows 149
+2021-12-08 15:58:52,504 INFO app Thread-29 : Filter Query {'pageNo': 1, 'records': 50, 'filter': {'playCount': '57', 'artist': 'a', 'metricB': '7'}, 'sortColumn': 'metricB', 'sortOrderAsc': False}
+2021-12-08 15:58:52,504 INFO app Thread-29 : Filtering table
+2021-12-08 15:58:52,505 INFO app Thread-29 : Sorting table
+2021-12-08 15:58:52,505 INFO app Thread-29 : Implementing Pagination
+2021-12-08 15:58:52,505 INFO app Thread-29 : Rendered json into table
+2021-12-08 15:58:52,506 INFO werkzeug Thread-29 : 127.0.0.1 - - [08/Dec/2021 15:58:52] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:58:52,648 INFO app Thread-30 : Number of Rows 149
+2021-12-08 15:58:52,648 INFO app Thread-30 : Filter Query {'pageNo': 1, 'records': 50, 'filter': {'playCount': '57', 'artist': 'a', 'metricB': '7'}, 'sortColumn': 'metricB', 'sortOrderAsc': True}
+2021-12-08 15:58:52,648 INFO app Thread-30 : Filtering table
+2021-12-08 15:58:52,649 INFO app Thread-30 : Sorting table
+2021-12-08 15:58:52,649 INFO app Thread-30 : Implementing Pagination
+2021-12-08 15:58:52,649 INFO app Thread-30 : Rendered json into table
+2021-12-08 15:58:52,650 INFO werkzeug Thread-30 : 127.0.0.1 - - [08/Dec/2021 15:58:52] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:58:52,778 INFO app Thread-31 : Number of Rows 149
+2021-12-08 15:58:52,778 INFO app Thread-31 : Filter Query {'pageNo': 1, 'records': 50, 'filter': {'playCount': '57', 'artist': 'a', 'metricB': '7'}, 'sortColumn': 'metricB', 'sortOrderAsc': False}
+2021-12-08 15:58:52,779 INFO app Thread-31 : Filtering table
+2021-12-08 15:58:52,779 INFO app Thread-31 : Sorting table
+2021-12-08 15:58:52,779 INFO app Thread-31 : Implementing Pagination
+2021-12-08 15:58:52,779 INFO app Thread-31 : Rendered json into table
+2021-12-08 15:58:52,780 INFO werkzeug Thread-31 : 127.0.0.1 - - [08/Dec/2021 15:58:52] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:58:53,686 INFO app Thread-32 : Number of Rows 149
+2021-12-08 15:58:53,686 INFO app Thread-32 : Filter Query {'pageNo': 1, 'records': 50, 'filter': {'playCount': '57', 'artist': 'a', 'metricB': '7'}, 'sortColumn': 'metricA', 'sortOrderAsc': True}
+2021-12-08 15:58:53,686 INFO app Thread-32 : Filtering table
+2021-12-08 15:58:53,687 INFO app Thread-32 : Sorting table
+2021-12-08 15:58:53,687 INFO app Thread-32 : Implementing Pagination
+2021-12-08 15:58:53,687 INFO app Thread-32 : Rendered json into table
+2021-12-08 15:58:53,688 INFO werkzeug Thread-32 : 127.0.0.1 - - [08/Dec/2021 15:58:53] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:58:53,832 INFO app Thread-33 : Number of Rows 149
+2021-12-08 15:58:53,833 INFO app Thread-33 : Filter Query {'pageNo': 1, 'records': 50, 'filter': {'playCount': '57', 'artist': 'a', 'metricB': '7'}, 'sortColumn': 'metricA', 'sortOrderAsc': False}
+2021-12-08 15:58:53,833 INFO app Thread-33 : Filtering table
+2021-12-08 15:58:53,833 INFO app Thread-33 : Sorting table
+2021-12-08 15:58:53,834 INFO app Thread-33 : Implementing Pagination
+2021-12-08 15:58:53,834 INFO app Thread-33 : Rendered json into table
+2021-12-08 15:58:53,834 INFO werkzeug Thread-33 : 127.0.0.1 - - [08/Dec/2021 15:58:53] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:58:53,978 INFO app Thread-34 : Number of Rows 149
+2021-12-08 15:58:53,979 INFO app Thread-34 : Filter Query {'pageNo': 1, 'records': 50, 'filter': {'playCount': '57', 'artist': 'a', 'metricB': '7'}, 'sortColumn': 'metricA', 'sortOrderAsc': True}
+2021-12-08 15:58:53,979 INFO app Thread-34 : Filtering table
+2021-12-08 15:58:53,980 INFO app Thread-34 : Sorting table
+2021-12-08 15:58:53,980 INFO app Thread-34 : Implementing Pagination
+2021-12-08 15:58:53,980 INFO app Thread-34 : Rendered json into table
+2021-12-08 15:58:53,981 INFO werkzeug Thread-34 : 127.0.0.1 - - [08/Dec/2021 15:58:53] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:58:54,108 INFO app Thread-35 : Number of Rows 149
+2021-12-08 15:58:54,109 INFO app Thread-35 : Filter Query {'pageNo': 1, 'records': 50, 'filter': {'playCount': '57', 'artist': 'a', 'metricB': '7'}, 'sortColumn': 'metricA', 'sortOrderAsc': False}
+2021-12-08 15:58:54,109 INFO app Thread-35 : Filtering table
+2021-12-08 15:58:54,110 INFO app Thread-35 : Sorting table
+2021-12-08 15:58:54,110 INFO app Thread-35 : Implementing Pagination
+2021-12-08 15:58:54,110 INFO app Thread-35 : Rendered json into table
+2021-12-08 15:58:54,111 INFO werkzeug Thread-35 : 127.0.0.1 - - [08/Dec/2021 15:58:54] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:58:57,062 INFO app Thread-36 : Number of Rows 149
+2021-12-08 15:58:57,063 INFO app Thread-36 : Filter Query {'pageNo': 1, 'records': 100, 'filter': {'playCount': '57', 'artist': 'a', 'metricB': '7'}, 'sortColumn': 'metricA', 'sortOrderAsc': False}
+2021-12-08 15:58:57,063 INFO app Thread-36 : Filtering table
+2021-12-08 15:58:57,064 INFO app Thread-36 : Sorting table
+2021-12-08 15:58:57,064 INFO app Thread-36 : Implementing Pagination
+2021-12-08 15:58:57,064 INFO app Thread-36 : Rendered json into table
+2021-12-08 15:58:57,065 INFO werkzeug Thread-36 : 127.0.0.1 - - [08/Dec/2021 15:58:57] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:58:58,988 INFO app Thread-37 : Number of Rows 149
+2021-12-08 15:58:58,988 INFO app Thread-37 : Filter Query {'pageNo': 2, 'records': 100, 'filter': {'playCount': '57', 'artist': 'a', 'metricB': '7'}, 'sortColumn': 'metricA', 'sortOrderAsc': False}
+2021-12-08 15:58:58,989 INFO app Thread-37 : Filtering table
+2021-12-08 15:58:58,989 INFO app Thread-37 : Sorting table
+2021-12-08 15:58:58,989 INFO app Thread-37 : Implementing Pagination
+2021-12-08 15:58:58,989 INFO app Thread-37 : Rendered json into table
+2021-12-08 15:58:58,990 INFO werkzeug Thread-37 : 127.0.0.1 - - [08/Dec/2021 15:58:58] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:59:03,828 INFO app Thread-38 : Number of Rows 149
+2021-12-08 15:59:03,831 INFO app Thread-38 : Filter Query {'pageNo': 1, 'records': 100, 'filter': {'playCount': '57', 'metricB': '7'}, 'sortColumn': 'metricA', 'sortOrderAsc': False}
+2021-12-08 15:59:03,831 INFO app Thread-38 : Filtering table
+2021-12-08 15:59:03,834 INFO app Thread-38 : Sorting table
+2021-12-08 15:59:03,835 INFO app Thread-38 : Implementing Pagination
+2021-12-08 15:59:03,835 INFO app Thread-38 : Rendered json into table
+2021-12-08 15:59:03,836 INFO werkzeug Thread-38 : 127.0.0.1 - - [08/Dec/2021 15:59:03] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:59:06,830 INFO app Thread-39 : Number of Rows 149
+2021-12-08 15:59:06,831 INFO app Thread-39 : Filter Query {'pageNo': 1, 'records': 100, 'filter': {'metricB': '7'}, 'sortColumn': 'metricA', 'sortOrderAsc': False}
+2021-12-08 15:59:06,831 INFO app Thread-39 : Filtering table
+2021-12-08 15:59:06,832 INFO app Thread-39 : Sorting table
+2021-12-08 15:59:06,832 INFO app Thread-39 : Implementing Pagination
+2021-12-08 15:59:06,832 INFO app Thread-39 : Rendered json into table
+2021-12-08 15:59:06,834 INFO werkzeug Thread-39 : 127.0.0.1 - - [08/Dec/2021 15:59:06] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:59:08,569 INFO app Thread-40 : Number of Rows 149
+2021-12-08 15:59:08,570 INFO app Thread-40 : Filter Query {'pageNo': 1, 'records': 100, 'filter': {}, 'sortColumn': 'metricA', 'sortOrderAsc': False}
+2021-12-08 15:59:08,570 INFO app Thread-40 : Filtering table
+2021-12-08 15:59:08,570 INFO app Thread-40 : Sorting table
+2021-12-08 15:59:08,571 INFO app Thread-40 : Implementing Pagination
+2021-12-08 15:59:08,571 INFO app Thread-40 : Rendered json into table
+2021-12-08 15:59:08,577 INFO werkzeug Thread-40 : 127.0.0.1 - - [08/Dec/2021 15:59:08] "[37mPOST /searchData HTTP/1.1[0m" 200 -
+2021-12-08 15:59:10,358 INFO app Thread-41 : Number of Rows 149
+2021-12-08 15:59:10,360 INFO app Thread-41 : Filter Query {'pageNo': 2, 'records': 100, 'filter': {}, 'sortColumn': 'metricA', 'sortOrderAsc': False}
+2021-12-08 15:59:10,360 INFO app Thread-41 : Filtering table
+2021-12-08 15:59:10,360 INFO app Thread-41 : Sorting table
+2021-12-08 15:59:10,360 INFO app Thread-41 : Implementing Pagination
+2021-12-08 15:59:10,360 INFO app Thread-41 : Rendered json into table
+2021-12-08 15:59:10,363 INFO werkzeug Thread-41 : 127.0.0.1 - - [08/Dec/2021 15:59:10] "[37mPOST /searchData HTTP/1.1[0m" 200 -

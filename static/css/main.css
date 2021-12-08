@@ -1,0 +1,114 @@
+[data-theme="dark"] {
+    --background-color: rgb(42,42,42);
+    /* --background-image: url("../data/bg.gif") */
+    --navbar: #282828;
+    --text-color: #fff;
+    --border-color: #8b8b8b;
+    --table-head: #262626;
+    --table-even: rgb(82, 82, 82);
+    --table-odd: var(--background-color);
+    --table-hover: rgb(198 0 43 / 20%);
+    --input-bg: rgb(59,59,59);
+    --button-bg: #6C757D;
+}
+
+[data-theme="light"] {
+    --background-color: #fff;
+    --navbar: #f8f9fa;
+    --text-color: rgb(0, 0, 0);
+    --border-color: #dee2e6;
+    --table-head: #efefef;
+    --table-even: rgb(235 235 235);
+    --table-odd: var(--background-color);
+    --table-hover: rgb(198 0 43 / 20%);
+    --input-bg: #f7f7f7;
+    --button-bg: #efefef;
+}
+
+*,html {
+    color: var(--text-color) !important;
+}
+
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    
+    border-bottom: 5px solid white;
+  }
+
+nav {
+    border-bottom: 1px solid var(--border-color);
+    background-color: var(--navbar);
+}
+
+body {
+    overflow: hidden;
+    background-color: var(--background-color);
+}
+
+input,select {
+    background: var(--background-color);
+}
+
+.data-container {
+    padding: 2%;
+    height: 87vh;
+}
+
+.bootstrap-table {
+    scrollbar-color: #6969dd #e0e0e0;
+    scrollbar-width: thin;
+}
+
+#data-table td, #data-table th {
+    border-color: var(--border-color);
+    /* text-align: center; */
+    font-family: 'Roboto', sans-serif;
+}
+
+#data-table td{
+    font-size: 13px;
+}
+
+
+#data-table thead tr {
+    background: var(--table-head);
+}
+
+#data-table tbody tr:nth-child(odd) {
+    background: var(--table-odd);
+}
+
+#data-table tbody tr:nth-child(even) {
+    background: var(--table-even);
+}
+
+#data-table tbody tr:hover {
+    background: var(--table-hover);
+}
+
+#data-table .data-search {
+    margin-top: 0.5em;
+    border-radius: 3px;
+    border: 1px solid var(--border-color);
+}
+
+.footer {
+    margin-top: 1em;
+}
+
+#recordDiv {
+    float: left;
+    margin-left: 1rem;
+}
+
+#pagination {
+    float: right;
+    margin-right: 1rem;
+}
+
+/* ::-webkit-input-placeholder {
+    text-align: center;
+  } */
